@@ -8,7 +8,7 @@ version = "1.0"
 authors = [
   { name="Yotam Gingold", email="yotam@yotamgingold.com" },
 ]
-description = "Computes the distance and closest point from a set of points to a set of line segments relatively efficiently."
+description = "Relatively efficient distance and closest point from a set of points to a set of line segments."
 readme = "README.md"
 requires-python = ">=3.5"
 classifiers = [
