@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools", "wheel", "numpy>=1.19.0", "Cython>=0.29.21"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "edge_distance_aabb"
+version = "1.0"
+authors = [
+  { name="Yotam Gingold", email="yotam@yotamgingold.com" },
+]
+description = "Computes the distance and closest point from a set of points to a set of line segments relatively efficiently."
+readme = "README.md"
+requires-python = ">=3.5"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/pypa/sampleproject"
+"Bug Tracker" = "https://github.com/pypa/sampleproject/issues"
