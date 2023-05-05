@@ -1,0 +1,6 @@
+/build
+/dist
+
+/edge_distance_aabb.cpp
+/edge_distance_aabb.*.so
+/edge_distance_aabb.egg-info

@@ -61,4 +61,7 @@ pip install edge_distance_aabb
 
 ## Distribution
 
-`python3 -m build`
+```
+python3 -m build
+twine upload dist/*
+```
