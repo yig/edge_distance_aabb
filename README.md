@@ -53,7 +53,13 @@ print( "closest_points (should be: (0,0), (½,½), (½ or 1½,½), (1½,½), (2,
 pip install edge_distance_aabb
 ```
 
-2. By copying `edge_distance_aabb.pyx` and `edge_distance_aabb.h` into your directory and running `cythonize --build edge_distance_aabb.pyx`.
+2. From GitHub:
+
+```
+pip install git+https://github.com/yig/edge_distance_aabb.git
+```
+
+3. By copying `edge_distance_aabb.pyx` and `edge_distance_aabb.h` into your directory and running `cythonize --build edge_distance_aabb.pyx`.
 
 ## Dependencies
 
