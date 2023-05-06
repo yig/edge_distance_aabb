@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "edge_distance_aabb"
-version = "1.0"
+version = "1.0.1"
 authors = [
   { name="Yotam Gingold", email="yotam@yotamgingold.com" },
 ]
